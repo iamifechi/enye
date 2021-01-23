@@ -39,7 +39,7 @@ body{
     margin:0;
 }
 .header{
-    font-size:2em;
+    font-size:calc(2vmin + 10px);
     padding:20px;
     font-weight:bold;
     width: 100%;
@@ -82,11 +82,11 @@ body{
 
 #sortMenu.push-out{
    // right:-270px;
-    animation:animate-left 2s ease-in-out;
+    animation:animate-left 1s ease-in-out;
 }
 #sortMenu.push-in{
     right:0;
-    animation:animate-right 2s ease-in-out;
+    animation:animate-right 1s ease-in-out;
 }
 
 .dropdown{
